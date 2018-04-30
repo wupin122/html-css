@@ -1,0 +1,23 @@
+.parent{
+	width: 810px;
+	height: 200px;
+	position: relative;
+	font-size: 30px;
+	color: #fff;
+	clear: both;
+	text-align: center;
+	line-height: 200px;
+}
+.parent .side{
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+	background-color: red;
+	float: left;
+}
+.parent .main{
+	width: 600px;
+	height: 200px;
+	background-color: blue;
+	float: right;
+}
