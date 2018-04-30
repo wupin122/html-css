@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 2</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.name {width: 130px;height: 20px;}
+		.study{width: 60px;height: 20px;}
+		.save{width: 80px;height: 35px; background: #FF00FF;border: none; font-size: 15px;color: #F8F8FF}
+	</style>
+</head>
+<body>
+	<table align="center"  cellpadding="7">
+		<tr>
+			<td width="50">头像</td>
+			<td><input type="file" name="file" placeholder="选择文件"></td>
+		</tr>
+		<tr>
+			<td>昵称</td>
+			<td><input type="text" name="name" class="name"></td>
+		</tr>
+		<tr>
+			<td>学历</td>
+			<td>
+				<select siza="1" name="study" class="study">
+					<option>大专</option>
+					<option>本科</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>性别</td>
+			<td class="sex">
+				<input type="radio" name="sex" value="male" checked/>男<i></i>
+				<input type="radio" name="sex" value="female" >女<i></i>
+			</td>
+		</tr>
+		<tr>
+			<td>爱好</td>
+			<td>
+				<input type="checkbox" name="hobby" value="movie" checked>电影
+				<input type="checkbox" name="hobby" value="camera" >摄影
+				<input type="checkbox" name="hobby" value="music" >音乐
+				<input type="checkbox" name="hobby" value="reading" checked>阅读
+			</td>
+		</tr>
+		<tr>
+			<td>签名</td>
+			<td>
+				<textarea rows="4" name="sign" cols="30"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="submit" name="save" value="保存" class="save"></td>
+		</tr>
+	</table>
+</body>
+</html>
