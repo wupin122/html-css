@@ -1,1 +1,423 @@
 *{margin:0;padding:0;}
+body{
+	width: 1440px;
+	height: 1400px;
+}
+header{
+	height: 80px;
+	position: relative;
+	border-bottom: 2px solid rgb(235, 235, 235);
+}
+header .l{
+	height: 80px;
+	width: 220px;
+	position: absolute;
+	margin-right: 0;
+}
+header .m{
+	position: relative;
+	height: 80px;
+	width: 1000px;
+	left: 220px;
+}
+header p,nav ul li{
+	position: absolute;
+	font:  20px/100% "微软雅黑";
+}
+header p{
+	color: rgb(7,186,149);
+	line-height: 80px;
+	font-size: 27px;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul .li1{
+	line-height: 80px;
+	left: 140px;
+	color: red;
+	border-top: 4px solid red;
+}
+nav ul .li2{
+	line-height: 80px;
+	left: 250px;
+	color: rgb(72,76,80);
+}
+nav input{
+	position: absolute;
+	border: 2px solid red;
+	width: 260px;
+	height: 30px;
+	left: 447px;
+	top: 23px;
+	font:  14px/100% "微软雅黑";
+	padding-left: 9px;
+	color:rgb(170,170,171);}
+nav .confirm{
+	position: absolute;
+	border: 2px solid red;
+	background-color: red;
+	width: 30px;
+	height: 80px;
+	left: 740px;
+	top: -2px;
+	-webkit-transform: rotate(90deg);
+	font-size:55px;
+	text-align: center;
+	color: #fff;
+}
+
+nav .confirm span{
+	position: absolute;
+	top: 0;
+	left: -7px;
+}
+nav .go{
+	text-decoration: none;
+	padding: 9px 12px;
+	position: absolute;
+	right: 12px;
+	top: 25px;
+	color:#FFFFFF;
+	background-color: rgb(29,192,145);
+	font:  14px/100% "微软雅黑";
+}
+header a:hover{
+	cursor: pointer;
+}
+
+/*中间部分*/
+main{
+	height: 1200px;
+	position: relative;
+	background-color: rgb(244,244,244);
+}
+main .main_m{
+	background-color: #fff;
+	position: absolute;
+	left: 220px;
+	width: 1000px;
+	height: 765px;
+}
+main a:hover{
+	cursor: pointer;
+}
+main .main_m .m_top{
+	width: 1000px;
+	height: 350px;
+	background-color: #7f8cc0;
+}
+main .main_m .m_top span{
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	cursor: pointer;
+	margin:5px;
+	position: relative;
+	top: 313px;
+	left: 940px;
+	display: inline-block;
+	border-radius: 100%;
+}
+div .m_middle{
+	width: 876px;
+	height: 322px;
+	position: absolute; 
+    left: 60px;
+    top: 390px;
+}
+div .m_middle .m_m_box_1{
+	float: left;
+	height: 322px;
+	width: 217px;
+}
+div .m_m_box_1 .t_1{
+	position: absolute;
+	text-align: center;
+	line-height: 100px;
+	border:2px solid ;
+	width: 95px;
+	height: 95px;
+	border-radius: 100%;
+	border-color: #1dc091;
+	color: #1dc091;
+	font-size: 40px;
+	left: 60px;
+}
+div .m_m_box_1 .m_1{
+	position: absolute;
+	border-right: 2px solid #eeeeee;
+	width: 181px;
+	height: 120px;
+	left: 36px;
+	top: 140px;
+}
+div .m_m_box_1 .m_1 a{
+	text-decoration: none;
+}
+div .m_m_box_1 .m_1 a:link{
+	color: #525252;
+}
+div .m_m_box_1 .m_1 a:hover{
+	color: red;
+}
+div .m_m_box_1 .m_1 a h4{
+	font-size: 15px;
+	width: 148px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+div .m_m_box_1 .m_1 a h4:before{
+	content:"●";
+}
+div .m_m_box_1 .m_1 a p{
+	font-size: 13px;
+}
+div .m_m_box_1 .b_1{
+	position: absolute;
+	text-align: center;
+	line-height: 26px;
+	width: 26px;
+	height: 26px;
+	border:1px solid #1dc091;
+	border-radius: 100%;
+	border-color: #1dc091;
+	color: #1dc091;
+	font-size: 20px;
+	left: 95px;
+	bottom: 5px;
+}
+div .m_middle .m_m_box_2{
+	float: left;
+	height: 322px;
+	width: 217px;
+}
+div .m_m_box_2 .t_2{
+	position: absolute;
+	text-align: center;
+	line-height: 100px;
+	border:2px solid ;
+	width: 95px;
+	height: 95px;
+	border-radius: 100%;
+	border-color: #1dc091;
+	color: #1dc091;
+	font-size: 40px;
+	left: 277px;
+}
+div .m_m_box_2 .m_2{
+	position: absolute;
+	width: 148px;
+	height: 120px;
+	left: 253px;
+	top: 140px;
+	border-right: 2px solid #eeeeee;
+}
+div .m_m_box_2 .m_2 a{
+	text-decoration: none;
+}
+div .m_m_box_2 .m_2 a:link{
+	color: #525252;
+}
+div .m_m_box_2 .m_2 a:hover{
+	color: red;
+}
+div .m_m_box_2 .m_2 a h4{
+	font-size: 15px;
+	width: 148px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+div .m_m_box_2 .m_2 a h4:before{
+	content:"●";
+}
+div .m_m_box_2 .m_2 a p{
+	font-size: 13px;
+}
+div .m_m_box_2 .b_2{
+	position: absolute;
+	text-align: center;
+	line-height: 26px;
+	width: 26px;
+	height: 26px;
+	border:1px solid #1dc091;
+	border-radius: 100%;
+	border-color: #1dc091;
+	color: #1dc091;
+	font-size: 20px;
+	left: 312px;
+	bottom: 5px;
+}
+div .m_middle .m_m_box_3{
+	float: left;
+	height: 322px;
+	width: 217px;
+}
+div .m_m_box_3 .t_1{
+	position: absolute;
+	text-align: center;
+	line-height: 100px;
+	border:2px solid ;
+	width: 95px;
+	height: 95px;
+	border-radius: 100%;
+	border-color: #1dc091;
+	color: #1dc091;
+	font-size: 40px;
+	left: 494px;
+}
+div .m_m_box_3 .m_1{
+	position: absolute;
+	width: 148px;
+	height: 120px;
+	left: 470px;
+	top: 140px;
+	border-right: 2px solid #eeeeee;
+}
+div .m_m_box_3 .m_1 a{
+	text-decoration: none;
+}
+div .m_m_box_3 .m_1 a:link{
+	color: #525252;
+}
+div .m_m_box_3 .m_1 a:hover{
+	color: red;
+}
+div .m_m_box_3 .m_1 a h4{
+	font-size: 15px;
+	width: 148px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+div .m_m_box_3 .m_1 a h4:before{
+	content:"●";
+}
+div .m_m_box_3 .m_1 a p{
+	font-size: 13px;
+}
+div .m_m_box_3 .b_1{
+	position: absolute;
+	text-align: center;
+	line-height: 26px;
+	width: 26px;
+	height: 26px;
+	border:1px solid #1dc091;
+	border-radius: 100%;
+	border-color: #1dc091;
+	color: #1dc091;
+	font-size: 20px;
+	left: 533px;
+	bottom: 5px;
+}
+div .m_middle .m_m_box_4{
+	float: left;
+	height: 322px;
+	width: 217px;
+}
+div .m_m_box_4 .t_1{
+	position: absolute;
+	text-align: center;
+	line-height: 100px;
+	border:2px solid ;
+	width: 95px;
+	height: 95px;
+	border-radius: 100%;
+	border-color: #1dc091;
+	color: #1dc091;
+	font-size: 40px;
+	right: 60px;
+}
+div .m_m_box_4 .m_1{
+	position: absolute;
+	width: 148px;
+	height: 120px;
+	right: 36px;
+	top: 140px;
+}
+div .m_m_box_4 .m_1 a{
+	text-decoration: none;
+}
+div .m_m_box_4 .m_1 a:link{
+	color: #525252;
+}
+div .m_m_box_4 .m_1 a:hover{
+	color: red;
+}
+div .m_m_box_4 .m_1 a h4{
+	font-size: 15px;
+	width: 148px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+div .m_m_box_4 .m_1 a h4:before{
+	content:"●";
+}
+div .m_m_box_4 .m_1 a p{
+	font-size: 13px;
+}
+div .m_m_box_4 .b_1{
+	position: absolute;
+	text-align: center;
+	line-height: 26px;
+	border:1px solid #1dc091;
+	width: 26px;
+	height: 26px;
+	border-radius: 100%;
+	color: #1dc091;
+	font-size: 20px;
+	right: 95px;
+	bottom: 5px;
+}
+main .main_m .m_bottom{
+	background-color: #fff;
+	width: 1000px;
+	height: 345px;
+	position: absolute;
+	margin-top: 425px;
+}
+main .m_bottom .b_t{
+	position: relative;
+	top: 30px;
+}
+main .m_bottom .b_b{
+	position: relative;
+	top: 110px;
+}
+main .m_bottom h4{
+	text-align: center;
+	font: 18px "微软雅黑";
+}
+main .m_bottom p{
+	color: #1dc091;
+	font-size: 12px;
+	text-align: center;
+}
+footer{
+	width: 1440px;
+	height: 118px;
+	background-color: #333333;
+}
+footer .t{
+	position: relative;
+	top: 70px;
+	color: #9B9B9B;
+	font-size: 14px;
+	font-family: PingFang SC;
+	text-align: center;
+}
+footer .t .f{
+	letter-spacing: 5px;
+	word-spacing: 5px;
+}
+footer .t .circle{
+	width: 3px;
+	height: 10px;
+	display: inline-block;
+	background: red;
+	border-radius: 3px;
+	margin: 0 10px;
+}
