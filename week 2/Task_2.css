@@ -1,0 +1,8 @@
+h3{
+	width: 200px;
+	font:bold 16px/25px "宋体",arial;
+	color:black;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;/*强制不换行*/
+}
